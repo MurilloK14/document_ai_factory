@@ -92,7 +92,7 @@ class LocalBoundaryDetector:
                 # Sinal 1: Queda de Similaridade de Cosseno (Cosine Similarity Drop)
                 if tem_tfidf and matriz_tfidf is not None:
                     sim = float(
-                        cosine_similarity(matriz_tfidf[i], matriz_tfidf[i - 1])[0][0])
+                        cosine_similarity(matriz_tfidf[i], matriz_tfidf[i - 1])[0][0]) # type: ignore
                     queda_sim = max(0.0, 1.0 - sim)
                     score += queda_sim * 0.40
                     if queda_sim > 0.65:
@@ -110,12 +110,13 @@ class LocalBoundaryDetector:
                 if cnj_atual:
                     cnj_anterior = cnj_atual
 
-                # Sinal 3: Palavras-chave de Abertura / Vocativos no Cabeçalho
+                # Sinal 3: Palavras-chave de Abertura (Apenas se NÃO estava no cabeçalho da pág anterior)
+                cabecalho_ant = textos_paginas[i - 1][:800].upper()
                 for termo in self.TERMOS_ABERTURA:
-                    if termo in cabecalho:
+                    if termo in cabecalho and termo not in cabecalho_ant:
                         score += 0.35
                         motivos.append(
-                            f"Termo de abertura detectado: '{termo}'")
+                            f"Termo de abertura inédito na sequência: '{termo}'")
                         break
 
                 # Normalização do score
