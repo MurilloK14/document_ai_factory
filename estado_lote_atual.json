@@ -278,8 +278,8 @@
         124
       ],
       "confianca": 0.72,
-      "status_revisao": "REVISAO_NECESSARIA",
-      "motivo_revisao": "Confiança abaixo do limiar de segurança (0.80); carimbo de autenticação com baixa legibilidade na margem esquerda.",
+      "status_revisao": "APROVADO_HUMANO",
+      "motivo_revisao": "Validado manualmente pelo analista de backoffice.",
       "ocr_resumo_lgpd": "DÉCIMA QUARTA ALTERAÇÃO CONTRATUAL DA SOCIEDADE. Pelo presente instrumento particular, os sócios decidem pela alteração da sede social e aumento do capital subscrito e integralizado. Junta Comercial NIRE 35.291.029.182...",
       "nome_arquivo": "doc_6_Societário_Contratos_Contrato_Social_Alteraç_p121_a_124.pdf",
       "url_download": "/api/download/doc_6_Societário_Contratos_Contrato_Social_Alteraç_p121_a_124.pdf"
