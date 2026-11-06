@@ -71,6 +71,13 @@ def eh_erro_temporario(exc: BaseException) -> bool:
     reraise=True
 )
 def gerar_conteudo_com_resiliencia(conteudos: list[Any]):
+    global client
+    if client is None:
+        try:
+            client = genai.Client()
+        except Exception as e_init:
+            raise RuntimeError(f"Cliente Gemini indisponível: {e_init}")
+
     erro_final = None
     for modelo in MODELOS_PRIORITARIOS:
         try:
@@ -440,6 +447,7 @@ def baixar_pacote_zip():
         raise HTTPException(status_code=404, detail="Nenhum lote cortado disponível.")
     arquivo_zip = shutil.make_archive("pacote_documentos_validados", "zip", PASTA_PDFS_CORTADOS)
     return FileResponse(arquivo_zip, media_type="application/zip", filename="lote_documentos_separados.zip")
+
 
 # ---------------------------------------------------------
 # STATUS DO SISTEMA E RECUPERAÇÃO DO LOTE ATIVO
