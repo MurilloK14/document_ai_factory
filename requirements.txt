@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+PyMuPDF
+google-genai
+tenacity
+scikit-learn
+Pillow
+python-multipart
