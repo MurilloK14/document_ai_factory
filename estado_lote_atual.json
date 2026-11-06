@@ -83,7 +83,7 @@
         21,
         22
       ],
-      "confianca": 0.94,
+      "confianca": 0.96,
       "status_revisao": "APROVADO_AUTOMATICO",
       "motivo_revisao": null,
       "ocr_resumo_lgpd": "CERTIDÃO DE PUBLICAÇÃO DE EDITAL DE CREDORES. Certifico e dou fé que nesta data foi publicado no Diário da Justiça Eletrônico o edital de intimação com a relação nominal de credores da Recuperanda, totalizando 1.240 lançamentos contábeis...",
@@ -94,13 +94,14 @@
       "doc_id": 3,
       "categoria_macro": "Jurídico / Processual",
       "tipo_documento": "Plano de Recuperação Judicial",
-      "subtipo_detalhe": "Plano Estruturado de Reestruturação do Passivo Concursal",
+      "subtipo_detalhe": "Plano Estruturado de Recuperação Judicial",
       "envolvidos": [
         "Indústrias Metalúrgicas Reunidas S.A.",
-        "Comitê Geral de Credores"
+        "Deloitte Touche Tohmatsu",
+        "Accenture Strategy"
       ],
-      "juiz": null,
-      "data_processo": "2024-04-10",
+      "juiz": "Dr. Alexandre de Carvalho Freitas",
+      "data_processo": "2024-04-01",
       "pagina_inicio": 23,
       "pagina_fim": 116,
       "total_paginas_doc": 94,
@@ -200,10 +201,10 @@
         115,
         116
       ],
-      "confianca": 0.96,
+      "confianca": 0.97,
       "status_revisao": "APROVADO_AUTOMATICO",
       "motivo_revisao": null,
-      "ocr_resumo_lgpd": "PLANO ESTRUTURADO DE RECUPERAÇÃO JUDICIAL. Capítulo I - Da Viabilidade Econômico-Financeira da Atividade Produtiva. A Recuperanda apresenta nos termos do art. 53 da Lei 11.101/2005 o plano detalhado de amortização de passivos...",
+      "ocr_resumo_lgpd": "PLANO ESTRUTURADO DE RECUPERAÇÃO JUDICIAL. Capítulo I - Da Viabilidade Econômico-Financeira da Atividade Produtiva. A Recuperanda apresenta nos termos do art. 53 da Lei 11.101/2005 o plano detalhado de amortização de passivos com carência de 24 meses...",
       "nome_arquivo": "doc_3_Jurídico_Processual_Plano_de_Recuperação_Judicial_p23_a_116.pdf",
       "url_download": "/api/download/doc_3_Jurídico_Processual_Plano_de_Recuperação_Judicial_p23_a_116.pdf"
     },
@@ -211,23 +212,23 @@
       "doc_id": 4,
       "categoria_macro": "Administrativo",
       "tipo_documento": "Requisição de Despesa / Suprimentos",
-      "subtipo_detalhe": "Formulário de Requisição de Despesa - Suprimentos",
+      "subtipo_detalhe": "Requisição de Despesa RD-2024/091",
       "envolvidos": [
-        "Departamento Financeiro",
-        "PricewaterhouseCoopers"
+        "Controladoria Central",
+        "Diretor Financeiro"
       ],
       "juiz": null,
-      "data_processo": "2024-05-02",
+      "data_processo": "2024-04-10",
       "pagina_inicio": 117,
       "pagina_fim": 117,
       "total_paginas_doc": 1,
       "paginas": [
         117
       ],
-      "confianca": 0.92,
+      "confianca": 0.95,
       "status_revisao": "APROVADO_AUTOMATICO",
       "motivo_revisao": null,
-      "ocr_resumo_lgpd": "FORMULÁRIO INTERNO DE REQUISIÇÃO DE DESPESA (RD-2024/091). Centro de Custo: Controladoria Central. Descrição do Pagamento: Honorários de perícia contábil prévia da Recuperação Judicial. Valor: R$ 45.000,00...",
+      "ocr_resumo_lgpd": "FORMULÁRIO INTERNO DE REQUISIÇÃO DE DESPESA (RD-2024/091). Centro de Custo: Controladoria Central. Descrição do Pagamento: Honorários de perícia contábil prévia da Recuperação Judicial. Valor: R$ 45.000,00. Aprovado pelo Diretor Financeiro.",
       "nome_arquivo": "doc_4_Administrativo_Requisição_de_Despesa_Suprimentos_p117_a_117.pdf",
       "url_download": "/api/download/doc_4_Administrativo_Requisição_de_Despesa_Suprimentos_p117_a_117.pdf"
     },
@@ -235,13 +236,13 @@
       "doc_id": 5,
       "categoria_macro": "Administrativo",
       "tipo_documento": "Ordem de Compra / Contratação",
-      "subtipo_detalhe": "Ordem de Compra (OC-2024/8892) - Serviços Especializados",
+      "subtipo_detalhe": "Ordem de Compra OC-8892/2024",
       "envolvidos": [
-        "Gerência de Suprimentos",
-        "TechServices Consultoria Ltda"
+        "TechServices Consultoria Ltda.",
+        "Gerente de Compras"
       ],
       "juiz": null,
-      "data_processo": "2024-05-03",
+      "data_processo": "2024-04-15",
       "pagina_inicio": 118,
       "pagina_fim": 120,
       "total_paginas_doc": 3,
@@ -250,10 +251,10 @@
         119,
         120
       ],
-      "confianca": 0.89,
+      "confianca": 0.93,
       "status_revisao": "APROVADO_AUTOMATICO",
       "motivo_revisao": null,
-      "ocr_resumo_lgpd": "ORDEM DE COMPRA (OC) Nº 8892/2024. Fornecedor: TechServices Consultoria Ltda. CNPJ: [CNPJ_OCULTO]. Condições de Pagamento: 30 dias após emissão da NF. Prazo de Entrega: Imediato. Assinatura do Gerente de Compras...",
+      "ocr_resumo_lgpd": "ORDEM DE COMPRA (OC) Nº 8892/2024. Fornecedor: TechServices Consultoria Ltda. CNPJ: [CNPJ_OCULTO]. Condições de Pagamento: 30 dias após emissão da NF. Prazo de Entrega: Imediato. Assinatura do Gerente de Compras.",
       "nome_arquivo": "doc_5_Administrativo_Ordem_de_Compra_Contratação_p118_a_120.pdf",
       "url_download": "/api/download/doc_5_Administrativo_Ordem_de_Compra_Contratação_p118_a_120.pdf"
     },
@@ -261,10 +262,11 @@
       "doc_id": 6,
       "categoria_macro": "Societário / Contratos",
       "tipo_documento": "Contrato Social / Alteração Contratual",
-      "subtipo_detalhe": "14ª Alteração Contratual e Consolidação do Estatuto Social",
+      "subtipo_detalhe": "Décima Quarta Alteração Contratual",
       "envolvidos": [
-        "Sócios Administradores",
-        "Junta Comercial do Estado"
+        "Ricardo Mendes",
+        "Fernanda Alves",
+        "Grupo Metalgest"
       ],
       "juiz": null,
       "data_processo": "2024-05-10",
@@ -320,7 +322,7 @@
       "confianca": 0.95,
       "status_revisao": "APROVADO_AUTOMATICO",
       "motivo_revisao": null,
-      "ocr_resumo_lgpd": "RELATÓRIO DOS AUDITORES INDEPENDENTES SOBRE AS DEMONSTRAÇÕES FINANCEIRAS. Aos Administradores e Acionistas. Examinamos as demonstrações financeiras consolidadas que compreendem o Balanço Patrimonial em 31 de dezembro de 2023...",
+      "ocr_resumo_lgpd": "RELATÓRIO DOS AUDITORES INDEPENDENTES SOBRE AS DEMONSTRAÇÕES FINANCEIRAS. Aos Administradores e Acionistas. Examinamos as demonstrações financeiras consolidadas que compreendem o Balanço Patrimonial em 31 de dezembro de 2023, DRE e fluxo de caixa.",
       "nome_arquivo": "doc_7_Financeiro_Contábil_Demonstrações_Financeiras_p125_a_141.pdf",
       "url_download": "/api/download/doc_7_Financeiro_Contábil_Demonstrações_Financeiras_p125_a_141.pdf"
     }
@@ -328,31 +330,567 @@
   "_indice_ocr_paginas": [
     {
       "pagina": 1,
-      "texto": "PODER JUDICIÁRIO - TRIBUNAL DE JUSTIÇA DO ESTADO. 2ª Vara de Falências e Recuperações Judiciais. Processo nº 1048291-44.2024.8.26.0100. Vistos etc. Trata-se de pedido de Recuperação Judicial formulado por Indústrias Metalúrgicas Reunidas S.A., inscrita no CNPJ [CNPJ_OCULTO]. Deferimento do processamento da recuperação judicial nos termos do artigo 52 da Lei 11.101/2005."
+      "texto": "PODER JUDICIÁRIO - TRIBUNAL DE JUSTIÇA DO ESTADO DE SÃO PAULO. 2ª Vara de Falências e Recuperações Judiciais. Processo nº 1048291-44.2024.8.26.0100. Vistos etc. Trata-se de pedido de Recuperação Judicial formulado por Indústrias Metalúrgicas Reunidas S.A., inscrita no CNPJ [CNPJ_OCULTO]. Deferimento do processamento da recuperação judicial nos termos do artigo 52 da Lei 11.101/2005."
+    },
+    {
+      "pagina": 2,
+      "texto": "DECISÃO JUDICIAL - Fls. 2. Considerando a documentação apresentada nos termos do art. 51 da Lei 11.101/2005, especialmente o relatório de viabilidade econômico-financeira elaborado pela consultoria especializada, e verificando o preenchimento de todos os requisitos legais, DEFIRO o processamento da recuperação judicial requerida. Nomeia-se como Administrador Judicial: Deloitte Touche Tohmatsu Auditores Independentes Ltda., CNPJ [CNPJ_OCULTO]."
+    },
+    {
+      "pagina": 3,
+      "texto": "DECISÃO JUDICIAL - Fls. 3. Determino: I) A suspensão de todas as ações e execuções em face da Recuperanda pelo prazo de 180 (cento e oitenta) dias, nos termos do art. 6º, §4º, da Lei 11.101/2005; II) A intimação do Ministério Público para acompanhamento do feito; III) A publicação do edital no Diário da Justiça Eletrônico - DJE para intimação dos credores e comunicação aos sócios, associados, membros ou acionistas sobre a decisão."
+    },
+    {
+      "pagina": 4,
+      "texto": "DECISÃO JUDICIAL - Fls. 4. Determino ainda: IV) A convocação da Assembleia Geral de Credores para deliberação sobre o Plano de Recuperação Judicial no prazo máximo de 150 dias; V) O afastamento do stay period para créditos de natureza trabalhista no tocante às execuções individuais que não impliquem atos de alienação do ativo da Recuperanda; VI) A comunicação ao Banco Central do Brasil, à Receita Federal e ao BACEN conforme determinação legal."
+    },
+    {
+      "pagina": 5,
+      "texto": "DECISÃO JUDICIAL - Fls. 5. PRAZO PARA APRESENTAÇÃO DO PLANO: A Recuperanda deverá apresentar o Plano de Recuperação Judicial no prazo improrrogável de 60 dias contado da publicação desta decisão no DJE, sob pena de convolação em falência nos termos do art. 56 da Lei 11.101/2005. RELAÇÃO DE CREDORES: Determino à Recuperanda a apresentação da relação completa de credores no prazo de 15 dias, sob pena de multa diária."
+    },
+    {
+      "pagina": 6,
+      "texto": "DECISÃO JUDICIAL - Fls. 6. PARTES PROCESSUAIS: Requerente: Indústrias Metalúrgicas Reunidas S.A. Advogados constituídos: Dr. Carlos Eduardo Monteiro e outros. Credores principais notificados: Banco Safra S.A.; Itaú Unibanco S.A.; Bradesco S.A.; Fornecedores e prestadores de serviços. Juiz responsável: Dr. Alexandre de Carvalho Freitas. Data da decisão: 15 de março de 2024."
+    },
+    {
+      "pagina": 7,
+      "texto": "DECISÃO JUDICIAL - Fls. 7. COMUNICAÇÕES DETERMINADAS: 1. Ofício ao BACEN informando sobre o deferimento do processamento; 2. Ofício à Receita Federal do Brasil; 3. Comunicação às Juntas Comerciais competentes; 4. Publicação no Diário Oficial do Estado; 5. Intimação de todos os credores constantes na lista apresentada. Prazo para habilitação de créditos pelos credores: 15 dias da publicação do edital."
+    },
+    {
+      "pagina": 8,
+      "texto": "DECISÃO JUDICIAL - Fls. 8. HONORÁRIOS DO ADMINISTRADOR JUDICIAL: Fixo os honorários do Administrador Judicial em 5% (cinco por cento) do valor dos créditos submetidos à recuperação judicial, conforme art. 24 da Lei 11.101/2005, a serem pagos pelos credores e pela Recuperanda. RELATÓRIOS MENSAIS: O Administrador Judicial deverá apresentar relatórios mensais das atividades da Recuperanda, sob pena de substituição."
+    },
+    {
+      "pagina": 9,
+      "texto": "DECISÃO JUDICIAL - Fls. 9. VEDAÇÕES IMPOSTAS À RECUPERANDA NO PERÍODO DE PROCESSAMENTO: I) Alienação de bens do ativo permanente sem autorização judicial prévia; II) Distribuição de lucros ou dividendos aos sócios; III) Contratação de novas dívidas acima de R$ 500.000 sem anuência do Administrador Judicial; IV) Alteração contratual societária relevante sem anuência do Administrador Judicial e aprovação do juízo."
+    },
+    {
+      "pagina": 10,
+      "texto": "DECISÃO JUDICIAL - Fls. 10. PUBLICAÇÃO E EFICÁCIA: Publique-se. Intimem-se. Cumpra-se. São Paulo, 15 de março de 2024. Dr. Alexandre de Carvalho Freitas - Juiz de Direito da 2ª Vara de Falências e Recuperações Judiciais do Foro Central da Comarca de São Paulo. Certifico que este despacho foi assinado eletronicamente conforme Lei 11.419/2006. Tribunal de Justiça do Estado de São Paulo."
     },
     {
       "pagina": 11,
-      "texto": "CERTIDÃO DE PUBLICAÇÃO DE EDITAL DE CREDORES. Certifico e dou fé que nesta data foi publicado no Diário da Justiça Eletrônico o edital de intimação com a relação nominal de credores da Recuperanda, totalizando 1.240 lançamentos contábeis com prazos recursais."
+      "texto": "CERTIDÃO DE PUBLICAÇÃO DE EDITAL DE CREDORES - QUADRO GERAL DE CREDORES. Certifico e dou fé que nesta data, 22 de março de 2024, foi publicado no Diário da Justiça Eletrônico - DJE o edital de intimação com a relação nominal de credores da Recuperanda Indústrias Metalúrgicas Reunidas S.A. Totalizam 1.240 lançamentos contábeis. Prazo para habilitação: 15 dias da publicação."
+    },
+    {
+      "pagina": 12,
+      "texto": "QUADRO GERAL DE CREDORES - Fls. 2. Credor: Banco Safra S.A. | Classe: Classe II - Garantia Real | Valor Atualizado: R$ 48.700.000,00 | CNPJ: [CNPJ_OCULTO] | Status: Habilitado | Observação: Crédito verificado pelo Administrador Judicial conforme documentação apresentada. Processo nº 1048291-44.2024.8.26.0100."
+    },
+    {
+      "pagina": 13,
+      "texto": "QUADRO GERAL DE CREDORES - Fls. 3. Credor: Itaú Unibanco S.A. | Classe: Classe II - Garantia Real | Valor Atualizado: R$ 35.200.000,00 | CNPJ: [CNPJ_OCULTO] | Status: Habilitado | Observação: Crédito verificado pelo Administrador Judicial conforme documentação apresentada. Processo nº 1048291-44.2024.8.26.0100."
+    },
+    {
+      "pagina": 14,
+      "texto": "QUADRO GERAL DE CREDORES - Fls. 4. Credor: Banco Bradesco S.A. | Classe: Classe II - Garantia Real | Valor Atualizado: R$ 22.500.000,00 | CNPJ: [CNPJ_OCULTO] | Status: Habilitado | Observação: Crédito verificado pelo Administrador Judicial conforme documentação apresentada. Processo nº 1048291-44.2024.8.26.0100."
+    },
+    {
+      "pagina": 15,
+      "texto": "QUADRO GERAL DE CREDORES - Fls. 5. Credor: Santander Brasil S.A. | Classe: Classe III - Quirografários | Valor Atualizado: R$ 18.900.000,00 | CNPJ: [CNPJ_OCULTO] | Status: Habilitado | Observação: Crédito verificado pelo Administrador Judicial conforme documentação apresentada. Processo nº 1048291-44.2024.8.26.0100."
+    },
+    {
+      "pagina": 16,
+      "texto": "QUADRO GERAL DE CREDORES - Fls. 6. Credor: Metalúrgica Paulista Ltda. | Classe: Classe III - Quirografários | Valor Atualizado: R$ 2.340.000,00 | CNPJ: [CNPJ_OCULTO] | Status: Habilitado | Observação: Crédito verificado pelo Administrador Judicial conforme documentação apresentada. Processo nº 1048291-44.2024.8.26.0100."
+    },
+    {
+      "pagina": 17,
+      "texto": "QUADRO GERAL DE CREDORES - Fls. 7. Credor: Transportes Sul Ltda. | Classe: Classe III - Quirografários | Valor Atualizado: R$ 890.000,00 | CNPJ: [CNPJ_OCULTO] | Status: Habilitado | Observação: Crédito verificado pelo Administrador Judicial conforme documentação apresentada. Processo nº 1048291-44.2024.8.26.0100."
+    },
+    {
+      "pagina": 18,
+      "texto": "QUADRO GERAL DE CREDORES - Fls. 8. Credor: Energia Elétrica SP S.A. | Classe: Classe III - Quirografários | Valor Atualizado: R$ 450.000,00 | CNPJ: [CNPJ_OCULTO] | Status: Habilitado | Observação: Crédito verificado pelo Administrador Judicial conforme documentação apresentada. Processo nº 1048291-44.2024.8.26.0100."
+    },
+    {
+      "pagina": 19,
+      "texto": "QUADRO GERAL DE CREDORES - Fls. 9. Credor: Petrobrás Distribuidora S.A. | Classe: Classe III - Quirografários | Valor Atualizado: R$ 1.200.000,00 | CNPJ: [CNPJ_OCULTO] | Status: Habilitado | Observação: Crédito verificado pelo Administrador Judicial conforme documentação apresentada. Processo nº 1048291-44.2024.8.26.0100."
+    },
+    {
+      "pagina": 20,
+      "texto": "QUADRO GERAL DE CREDORES - Fls. 10. Credor: Sindicato dos Metalúrgicos | Classe: Classe I - Trabalhistas | Valor Atualizado: R$ 3.450.000,00 | CNPJ: [CNPJ_OCULTO] | Status: Habilitado | Observação: Crédito verificado pelo Administrador Judicial conforme documentação apresentada. Processo nº 1048291-44.2024.8.26.0100."
+    },
+    {
+      "pagina": 21,
+      "texto": "QUADRO GERAL DE CREDORES - Fls. 11. Credor: Ana Maria Silva (ex-funcionária) | Classe: Classe I - Trabalhistas | Valor Atualizado: R$ 48.000,00 | CNPJ: [CNPJ_OCULTO] | Status: Habilitado | Observação: Crédito verificado pelo Administrador Judicial conforme documentação apresentada. Processo nº 1048291-44.2024.8.26.0100."
+    },
+    {
+      "pagina": 22,
+      "texto": "QUADRO GERAL DE CREDORES - Fls. 12. Credor: José Carlos Ferreira (ex-funcionário) | Classe: Classe I - Trabalhistas | Valor Atualizado: R$ 32.000,00 | CNPJ: [CNPJ_OCULTO] | Status: Habilitado | Observação: Crédito verificado pelo Administrador Judicial conforme documentação apresentada. Processo nº 1048291-44.2024.8.26.0100."
     },
     {
       "pagina": 23,
-      "texto": "PLANO ESTRUTURADO DE RECUPERAÇÃO JUDICIAL. Capítulo I - Da Viabilidade Econômico-Financeira da Atividade Produtiva. A Recuperanda apresenta nos termos do art. 53 da Lei 11.101/2005 o plano detalhado de amortização de passivos com carência de 24 meses."
+      "texto": "PLANO ESTRUTURADO DE RECUPERAÇÃO JUDICIAL. Capítulo I - DA VIABILIDADE ECONÔMICO-FINANCEIRA DA ATIVIDADE PRODUTIVA. A Recuperanda apresenta, nos termos do art. 53 da Lei 11.101/2005, o plano detalhado de amortização de passivos com carência de 24 meses. EBITDA 2023: R$ 28,4 milhões. Margem EBITDA: 18,7%. Capacidade de geração de caixa demonstrada."
+    },
+    {
+      "pagina": 24,
+      "texto": "PLANO - Capítulo I (cont.). Análise do mercado siderúrgico nacional: participação de mercado de 12% no segmento de laminados planos. Capacidade instalada: 450.000 toneladas/ano. Utilização atual: 68%. Perspectiva de recuperação do setor com crescimento projetado de 8% ao ano até 2027. Vantagens competitivas: localização estratégica e tecnologia de produção diferenciada."
+    },
+    {
+      "pagina": 25,
+      "texto": "PLANO - Capítulo I (cont.). Histórico de receitas: 2021 R$ 142M | 2022 R$ 158M | 2023 R$ 151M. Redução de 4,4% em 2023 em razão da crise setorial global. Projeções: 2024 R$ 155M | 2025 R$ 171M | 2026 R$ 189M | 2027 R$ 205M. Premissas: câmbio médio R$/USD 5,20; preço do minério de ferro USD 110/t; taxa de juros SELIC 10,5% a.a."
+    },
+    {
+      "pagina": 26,
+      "texto": "PLANO - Capítulo II - DA REESTRUTURAÇÃO DO PASSIVO. Passivo total submetido à recuperação: R$ 134.180.000,00. Distribuição por classe: Classe I (Trabalhistas): R$ 3.530.000 | Classe II (Garantia Real): R$ 106.400.000 | Classe III (Quirografários): R$ 24.250.000. Haircut proposto para Classe III: 35% sobre o principal. Carência de 24 meses para início dos pagamentos."
+    },
+    {
+      "pagina": 27,
+      "texto": "PLANO - Capítulo II (cont.). CONDIÇÕES DE PAGAMENTO POR CLASSE. Classe I - Trabalhistas: Pagamento integral em 12 parcelas mensais iguais, sem haircut, corrigidas pelo IPCA. Classe II - Garantia Real: Carência de 24 meses + 60 parcelas mensais, juros de 1,5% a.m., sobre o valor total do crédito. Classe III - Quirografários: Haircut de 35%, carência de 36 meses, 72 parcelas, juros de 0,5% a.m."
+    },
+    {
+      "pagina": 28,
+      "texto": "PLANO - Capítulo II (cont.). FONTES DE RECURSOS PARA CUMPRIMENTO DO PLANO: 1. Geração de caixa operacional projetada: R$ 28,4M/ano médio; 2. Alienação de ativo não estratégico (galpão industrial SP): R$ 15M; 3. Aporte de sócios (DIP Financing): R$ 20M em 36 meses; 4. Renegociação de contratos de fornecimento; 5. Redução de 20% no quadro administrativo (programa voluntário de desligamento)."
+    },
+    {
+      "pagina": 29,
+      "texto": "PLANO - Capítulo III - DO TRATAMENTO DE CREDORES. Credores de Classe I (Trabalhistas): Mantidas todas as obrigações trabalhistas. Pagamento prioritário. Sem deságio. Acordo com Sindicato dos Metalúrgicos para renegociação de PLR dos próximos 3 anos. Preservação de 100% dos empregos ativos. Manutenção do FGTS em dia a partir da data da decisão de deferimento."
+    },
+    {
+      "pagina": 30,
+      "texto": "PLANO - Capítulo III (cont.). Credores de Classe II (Garantia Real): Banco Safra S.A. - R$ 48,7M - carência 24 meses + 60 parcelas. Itaú Unibanco - R$ 35,2M - carência 24 meses + 60 parcelas. Banco Bradesco - R$ 22,5M - carência 24 meses + 60 parcelas. Manutenção das garantias reais existentes (hipoteca, alienação fiduciária de equipamentos). Taxa de juros: CDI + 2% a.a."
+    },
+    {
+      "pagina": 31,
+      "texto": "PLANO - Capítulo III (cont.). Credores de Classe III (Quirografários): Santander Brasil - R$ 18,9M. Deságio de 35% = R$ 12,285M a pagar. Metalúrgica Paulista - R$ 2,34M. Deságio 35% = R$ 1,521M. TechServices - R$ 180K. Deságio 35% = R$ 117K. Petrobrás Distribuidora - R$ 1,2M. Deságio 35% = R$ 780K. Total Classe III após haircut: R$ 15,762M."
+    },
+    {
+      "pagina": 32,
+      "texto": "PLANO - Capítulo IV - DO PROGRAMA DE REESTRUTURAÇÃO OPERACIONAL. Medidas de eficiência: redução de 15% no custo de matéria-prima via contratos de longo prazo; automação de linha de laminação com investimento de R$ 8M (fontes: BNDES e recursos próprios); redução de 20% no consumo de energia elétrica via eficiência energética; revisão de contratos logísticos com redução de 12% no custo de frete."
+    },
+    {
+      "pagina": 33,
+      "texto": "PLANO - Capítulo IV (cont.). CRONOGRAMA DE INVESTIMENTOS: Jan/2024: Auditoria operacional completa. Mar/2024: Licitação para automação linha 3. Jun/2024: Início das obras de automação. Dez/2024: Comissionamento linha automatizada. Mar/2025: Produção em capacidade plena. Set/2025: Início da alienação do ativo não estratégico. Dez/2025: Conclusão do programa de desligamento voluntário."
+    },
+    {
+      "pagina": 34,
+      "texto": "PLANO - Capítulo V - GOVERNANÇA E COMPLIANCE - Fls. 12. Página 1/12. Código de Conduta | Política Anticorrupção | Comitê de Auditoria | Relatórios ESG | Independência do Conselho | Política de Dividendos suspensa durante a recuperação | Auditoria externa anual KPMG | Transparência com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 35,
+      "texto": "PLANO - Capítulo V - GOVERNANÇA E COMPLIANCE - Fls. 13. Página 2/12. Código de Conduta | Política Anticorrupção | Comitê de Auditoria | Relatórios ESG | Independência do Conselho | Política de Dividendos suspensa durante a recuperação | Auditoria externa anual KPMG | Transparência com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 36,
+      "texto": "PLANO - Capítulo V - GOVERNANÇA E COMPLIANCE - Fls. 14. Página 3/12. Código de Conduta | Política Anticorrupção | Comitê de Auditoria | Relatórios ESG | Independência do Conselho | Política de Dividendos suspensa durante a recuperação | Auditoria externa anual KPMG | Transparência com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 37,
+      "texto": "PLANO - Capítulo V - GOVERNANÇA E COMPLIANCE - Fls. 15. Página 4/12. Código de Conduta | Política Anticorrupção | Comitê de Auditoria | Relatórios ESG | Independência do Conselho | Política de Dividendos suspensa durante a recuperação | Auditoria externa anual KPMG | Transparência com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 38,
+      "texto": "PLANO - Capítulo V - GOVERNANÇA E COMPLIANCE - Fls. 16. Página 5/12. Código de Conduta | Política Anticorrupção | Comitê de Auditoria | Relatórios ESG | Independência do Conselho | Política de Dividendos suspensa durante a recuperação | Auditoria externa anual KPMG | Transparência com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 39,
+      "texto": "PLANO - Capítulo V - GOVERNANÇA E COMPLIANCE - Fls. 17. Página 6/12. Código de Conduta | Política Anticorrupção | Comitê de Auditoria | Relatórios ESG | Independência do Conselho | Política de Dividendos suspensa durante a recuperação | Auditoria externa anual KPMG | Transparência com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 40,
+      "texto": "PLANO - Capítulo V - GOVERNANÇA E COMPLIANCE - Fls. 18. Página 7/12. Código de Conduta | Política Anticorrupção | Comitê de Auditoria | Relatórios ESG | Independência do Conselho | Política de Dividendos suspensa durante a recuperação | Auditoria externa anual KPMG | Transparência com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 41,
+      "texto": "PLANO - Capítulo V - GOVERNANÇA E COMPLIANCE - Fls. 19. Página 8/12. Código de Conduta | Política Anticorrupção | Comitê de Auditoria | Relatórios ESG | Independência do Conselho | Política de Dividendos suspensa durante a recuperação | Auditoria externa anual KPMG | Transparência com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 42,
+      "texto": "PLANO - Capítulo V - GOVERNANÇA E COMPLIANCE - Fls. 20. Página 9/12. Código de Conduta | Política Anticorrupção | Comitê de Auditoria | Relatórios ESG | Independência do Conselho | Política de Dividendos suspensa durante a recuperação | Auditoria externa anual KPMG | Transparência com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 43,
+      "texto": "PLANO - Capítulo V - GOVERNANÇA E COMPLIANCE - Fls. 21. Página 10/12. Código de Conduta | Política Anticorrupção | Comitê de Auditoria | Relatórios ESG | Independência do Conselho | Política de Dividendos suspensa durante a recuperação | Auditoria externa anual KPMG | Transparência com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 44,
+      "texto": "PLANO - Capítulo V - GOVERNANÇA E COMPLIANCE - Fls. 22. Página 11/12. Código de Conduta | Política Anticorrupção | Comitê de Auditoria | Relatórios ESG | Independência do Conselho | Política de Dividendos suspensa durante a recuperação | Auditoria externa anual KPMG | Transparência com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 45,
+      "texto": "PLANO - Capítulo V - GOVERNANÇA E COMPLIANCE - Fls. 23. Página 12/12. Código de Conduta | Política Anticorrupção | Comitê de Auditoria | Relatórios ESG | Independência do Conselho | Política de Dividendos suspensa durante a recuperação | Auditoria externa anual KPMG | Transparência com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 46,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 24. Página 1/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 47,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 25. Página 2/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 48,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 26. Página 3/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 49,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 27. Página 4/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 50,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 28. Página 5/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 51,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 29. Página 6/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 52,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 30. Página 7/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 53,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 31. Página 8/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 54,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 32. Página 9/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 55,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 33. Página 10/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 56,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 34. Página 11/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 57,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 35. Página 12/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 58,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 36. Página 13/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 59,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 37. Página 14/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 60,
+      "texto": "PLANO - Capítulo VI - PROJEÇÕES FINANCEIRAS - Fls. 38. Página 15/15. Tabela de Projeção: Ano | Receita Bruta | EBITDA | Margem | Resultado Líquido | Dívida Líquida. 2024: R$155M | R$27M | 17,4% | R$8M | R$128M. 2025: R$171M | R$31M | 18,1% | R$12M | R$108M. 2026: R$189M | R$36M | 19,0% | R$18M | R$84M. 2027: R$205M | R$41M | 20,0% | R$25M | R$56M. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 61,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 39. Página 1/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 62,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 40. Página 2/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 63,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 41. Página 3/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 64,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 42. Página 4/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 65,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 43. Página 5/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 66,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 44. Página 6/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 67,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 45. Página 7/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 68,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 46. Página 8/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 69,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 47. Página 9/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 70,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 48. Página 10/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 71,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 49. Página 11/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 72,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 50. Página 12/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 73,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 51. Página 13/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 74,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 52. Página 14/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 75,
+      "texto": "PLANO - Capítulo VII - ANÁLISE DE RISCOS - Fls. 53. Página 15/15. Risco de mercado: variação do preço do aço | Risco cambial: exposição ao USD | Risco de crédito: inadimplência de clientes | Risco operacional: paradas de produção | Risco regulatório: legislação ambiental | Risco de liquidez: capital de giro | Mitigação: hedge cambial, seguros, covenants com credores. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 76,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 54. Página 1/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 77,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 55. Página 2/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 78,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 56. Página 3/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 79,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 57. Página 4/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 80,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 58. Página 5/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 81,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 59. Página 6/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 82,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 60. Página 7/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 83,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 61. Página 8/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 84,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 62. Página 9/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 85,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 63. Página 10/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 86,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 64. Página 11/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 87,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 65. Página 12/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 88,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 66. Página 13/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 89,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 67. Página 14/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 90,
+      "texto": "PLANO - Capítulo VIII - LAUDO DE VIABILIDADE - Fls. 68. Página 15/15. Laudo elaborado por: Accenture Strategy Brasil Ltda. Conclusão: A Recuperanda apresenta viabilidade econômico-financeira comprovada. VPL do fluxo de caixa livre: R$ 42,7M. TIR do plano: 14,2% a.a. Payback do plano: 5,4 anos. Comparativo liquidação × recuperação: valor de liquidação estimado R$ 89M vs. valor como empresa em operação R$ 156M.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 91,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 69. Página 1/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 92,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 70. Página 2/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 93,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 71. Página 3/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 94,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 72. Página 4/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 95,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 73. Página 5/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 96,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 74. Página 6/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 97,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 75. Página 7/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 98,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 76. Página 8/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 99,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 77. Página 9/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 100,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 78. Página 10/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 101,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 79. Página 11/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 102,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 80. Página 12/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 103,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 81. Página 13/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 104,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 82. Página 14/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 105,
+      "texto": "PLANO - Capítulo IX - CLÁUSULAS GERAIS - Fls. 83. Página 15/15. Convolação em falência: descumprimento de qualquer obrigação por 90 dias consecutivos. Vencimento antecipado: venda de ativo estratégico sem autorização. Fiscalização: Administrador Judicial com livre acesso a registros e sistemas. Relatórios trimestrais ao juízo. Preservação do estabelecimento e fundo de comércio. Lei aplicável: 11.101/2005.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 106,
+      "texto": "PLANO - Capítulo X - ANEXOS E DOCUMENTOS - Fls. 84. Página 1/11. ANEXO I: Balanço patrimonial auditado 31/12/2023. ANEXO II: Demonstrativo de fluxo de caixa projetado 2024-2030. ANEXO III: Laudo de avaliação dos ativos imobilizados. ANEXO IV: Certidões negativas de débito tributário. ANEXO V: Ata de reunião do Conselho de Administração aprovando o plano. ANEXO VI: Declaração dos sócios de aporte de capital.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 107,
+      "texto": "PLANO - Capítulo X - ANEXOS E DOCUMENTOS - Fls. 85. Página 2/11. ANEXO I: Balanço patrimonial auditado 31/12/2023. ANEXO II: Demonstrativo de fluxo de caixa projetado 2024-2030. ANEXO III: Laudo de avaliação dos ativos imobilizados. ANEXO IV: Certidões negativas de débito tributário. ANEXO V: Ata de reunião do Conselho de Administração aprovando o plano. ANEXO VI: Declaração dos sócios de aporte de capital.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 108,
+      "texto": "PLANO - Capítulo X - ANEXOS E DOCUMENTOS - Fls. 86. Página 3/11. ANEXO I: Balanço patrimonial auditado 31/12/2023. ANEXO II: Demonstrativo de fluxo de caixa projetado 2024-2030. ANEXO III: Laudo de avaliação dos ativos imobilizados. ANEXO IV: Certidões negativas de débito tributário. ANEXO V: Ata de reunião do Conselho de Administração aprovando o plano. ANEXO VI: Declaração dos sócios de aporte de capital.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 109,
+      "texto": "PLANO - Capítulo X - ANEXOS E DOCUMENTOS - Fls. 87. Página 4/11. ANEXO I: Balanço patrimonial auditado 31/12/2023. ANEXO II: Demonstrativo de fluxo de caixa projetado 2024-2030. ANEXO III: Laudo de avaliação dos ativos imobilizados. ANEXO IV: Certidões negativas de débito tributário. ANEXO V: Ata de reunião do Conselho de Administração aprovando o plano. ANEXO VI: Declaração dos sócios de aporte de capital.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 110,
+      "texto": "PLANO - Capítulo X - ANEXOS E DOCUMENTOS - Fls. 88. Página 5/11. ANEXO I: Balanço patrimonial auditado 31/12/2023. ANEXO II: Demonstrativo de fluxo de caixa projetado 2024-2030. ANEXO III: Laudo de avaliação dos ativos imobilizados. ANEXO IV: Certidões negativas de débito tributário. ANEXO V: Ata de reunião do Conselho de Administração aprovando o plano. ANEXO VI: Declaração dos sócios de aporte de capital.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 111,
+      "texto": "PLANO - Capítulo X - ANEXOS E DOCUMENTOS - Fls. 89. Página 6/11. ANEXO I: Balanço patrimonial auditado 31/12/2023. ANEXO II: Demonstrativo de fluxo de caixa projetado 2024-2030. ANEXO III: Laudo de avaliação dos ativos imobilizados. ANEXO IV: Certidões negativas de débito tributário. ANEXO V: Ata de reunião do Conselho de Administração aprovando o plano. ANEXO VI: Declaração dos sócios de aporte de capital.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 112,
+      "texto": "PLANO - Capítulo X - ANEXOS E DOCUMENTOS - Fls. 90. Página 7/11. ANEXO I: Balanço patrimonial auditado 31/12/2023. ANEXO II: Demonstrativo de fluxo de caixa projetado 2024-2030. ANEXO III: Laudo de avaliação dos ativos imobilizados. ANEXO IV: Certidões negativas de débito tributário. ANEXO V: Ata de reunião do Conselho de Administração aprovando o plano. ANEXO VI: Declaração dos sócios de aporte de capital.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 113,
+      "texto": "PLANO - Capítulo X - ANEXOS E DOCUMENTOS - Fls. 91. Página 8/11. ANEXO I: Balanço patrimonial auditado 31/12/2023. ANEXO II: Demonstrativo de fluxo de caixa projetado 2024-2030. ANEXO III: Laudo de avaliação dos ativos imobilizados. ANEXO IV: Certidões negativas de débito tributário. ANEXO V: Ata de reunião do Conselho de Administração aprovando o plano. ANEXO VI: Declaração dos sócios de aporte de capital.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 114,
+      "texto": "PLANO - Capítulo X - ANEXOS E DOCUMENTOS - Fls. 92. Página 9/11. ANEXO I: Balanço patrimonial auditado 31/12/2023. ANEXO II: Demonstrativo de fluxo de caixa projetado 2024-2030. ANEXO III: Laudo de avaliação dos ativos imobilizados. ANEXO IV: Certidões negativas de débito tributário. ANEXO V: Ata de reunião do Conselho de Administração aprovando o plano. ANEXO VI: Declaração dos sócios de aporte de capital.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 115,
+      "texto": "PLANO - Capítulo X - ANEXOS E DOCUMENTOS - Fls. 93. Página 10/11. ANEXO I: Balanço patrimonial auditado 31/12/2023. ANEXO II: Demonstrativo de fluxo de caixa projetado 2024-2030. ANEXO III: Laudo de avaliação dos ativos imobilizados. ANEXO IV: Certidões negativas de débito tributário. ANEXO V: Ata de reunião do Conselho de Administração aprovando o plano. ANEXO VI: Declaração dos sócios de aporte de capital.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
+    },
+    {
+      "pagina": 116,
+      "texto": "PLANO - Capítulo X - ANEXOS E DOCUMENTOS - Fls. 94. Página 11/11. ANEXO I: Balanço patrimonial auditado 31/12/2023. ANEXO II: Demonstrativo de fluxo de caixa projetado 2024-2030. ANEXO III: Laudo de avaliação dos ativos imobilizados. ANEXO IV: Certidões negativas de débito tributário. ANEXO V: Ata de reunião do Conselho de Administração aprovando o plano. ANEXO VI: Declaração dos sócios de aporte de capital.. Processo nº 1048291-44.2024.8.26.0100. Administrador Judicial: Deloitte Touche Tohmatsu."
     },
     {
       "pagina": 117,
-      "texto": "FORMULÁRIO INTERNO DE REQUISIÇÃO DE DESPESA (RD-2024/091). Centro de Custo: Controladoria Central. Descrição do Pagamento: Honorários de perícia contábil prévia da Recuperação Judicial. Valor: R$ 45.000,00. Aprovado pelo Diretor Financeiro."
+      "texto": "FORMULÁRIO INTERNO DE REQUISIÇÃO DE DESPESA (RD-2024/091). Centro de Custo: Controladoria Central. Departamento: Financeiro. Descrição do Pagamento: Honorários de perícia contábil prévia da Recuperação Judicial. Fornecedor: Instituto de Perícias Contábeis SP Ltda. CNPJ: [CNPJ_OCULTO]. Valor: R$ 45.000,00. Classificação: Despesa Administrativa Corrente. Data: 10/04/2024. Aprovado pelo Diretor Financeiro."
     },
     {
       "pagina": 118,
-      "texto": "ORDEM DE COMPRA (OC) Nº 8892/2024. Fornecedor: TechServices Consultoria Ltda. CNPJ: [CNPJ_OCULTO]. Condições de Pagamento: 30 dias após emissão da NF. Prazo de Entrega: Imediato. Assinatura do Gerente de Compras."
+      "texto": "ORDEM DE COMPRA (OC) Nº 8892/2024. Data de Emissão: 15/04/2024. Fornecedor: TechServices Consultoria em Tecnologia Ltda. CNPJ: [CNPJ_OCULTO]. Endereço: Av. Paulista 1842, São Paulo - SP. Objeto: Licenciamento de sistema ERP e suporte técnico mensal. Valor total: R$ 180.000,00. Condições de Pagamento: 30 dias após emissão da Nota Fiscal. Prazo de Entrega: Imediato. Assinatura do Gerente de Compras."
+    },
+    {
+      "pagina": 119,
+      "texto": "ORDEM DE COMPRA OC 8892/2024 - Fls. 2. Itens da Ordem de Compra: Item 1: Licença ERP anual - R$ 120.000,00 | Item 2: Suporte técnico mensal 12 meses - R$ 48.000,00 | Item 3: Treinamento equipe interna - R$ 12.000,00. Total: R$ 180.000,00. IPI: Isento. ICMS: 12%. ISS: 5%. Nota Fiscal a ser emitida em até 5 dias úteis. Aceite pelo departamento de Tecnologia da Informação."
+    },
+    {
+      "pagina": 120,
+      "texto": "ORDEM DE COMPRA OC 8892/2024 - Fls. 3. Condições gerais: Entrega conforme cronograma anexo. Garantia: 12 meses. Penalidades por atraso: 0,5% ao dia sobre o valor inadimplido. Foro: São Paulo - SP. Autorizado pelo Administrador Judicial conforme art. 66 da Lei 11.101/2005. Rubrica do Administrador: Deloitte Touche Tohmatsu. Data: 15/04/2024. Protocolo administrativo nº 2024-04-0892."
     },
     {
       "pagina": 121,
-      "texto": "DÉCIMA QUARTA ALTERAÇÃO CONTRATUAL DA SOCIEDADE. Pelo presente instrumento particular, os sócios decidem pela alteração da sede social e aumento do capital subscrito e integralizado. Junta Comercial NIRE 35.291.029.182."
+      "texto": "DÉCIMA QUARTA ALTERAÇÃO CONTRATUAL DA SOCIEDADE INDÚSTRIAS METALÚRGICAS REUNIDAS S.A. Pelo presente instrumento particular, os sócios reunidos em assembleia extraordinária decidem pela: I) Alteração da sede social para Rua Industrial, 500, Guarulhos - SP; II) Aumento do capital subscrito e integralizado de R$ 50.000.000 para R$ 70.000.000. Junta Comercial NIRE 35.291.029.182. Data: 10/05/2024."
+    },
+    {
+      "pagina": 122,
+      "texto": "DÉCIMA QUARTA ALTERAÇÃO CONTRATUAL - Cláusulas específicas. Cláusula 9ª - DOS PODERES DE REPRESENTAÇÃO COMERCIAL: Toda e qualquer contratação de fornecedores e prestadores de serviços com valor igual ou superior a R$ 50.000,00 (cinquenta mil reais) deverá ser assinada conjuntamente pelo Gerente de Suprimentos e pelo Diretor Executivo, sob pena de nulidade do ato perante terceiros. Cláusula 10ª: alçadas de aprovação revisadas."
+    },
+    {
+      "pagina": 123,
+      "texto": "DÉCIMA QUARTA ALTERAÇÃO CONTRATUAL - Continuação. Cláusula 11ª - DO CONSELHO FISCAL: Instituído o Conselho Fiscal permanente com 3 membros eleitos em Assembleia Geral. Cláusula 12ª - DA DISTRIBUIÇÃO DE RESULTADOS: Suspenso o pagamento de dividendos e Juros sobre Capital Próprio pelo período de vigência do Plano de Recuperação Judicial, nos termos da decisão judicial. Data: 10/05/2024."
+    },
+    {
+      "pagina": 124,
+      "texto": "DÉCIMA QUARTA ALTERAÇÃO CONTRATUAL - Assinaturas e registro. Sócios signatários: [CPF_OCULTO] - Ricardo Mendes (Sócio-Diretor 40%); [CPF_OCULTO] - Fernanda Alves (Sócia 35%); [CPF_OCULTO] - Grupo Metalgest (25%). Testemunhas: [CPF_OCULTO] e [CPF_OCULTO]. Registrado na JUCESP em 10/05/2024. Autenticado eletronicamente. NIRE 35.291.029.182. Protocolo JUCESP 2024/058291."
     },
     {
       "pagina": 125,
-      "texto": "RELATÓRIO DOS AUDITORES INDEPENDENTES SOBRE AS DEMONSTRAÇÕES FINANCEIRAS. Aos Administradores e Acionistas. Examinamos as demonstrações financeiras consolidadas que compreendem o Balanço Patrimonial em 31 de dezembro de 2023, DRE e fluxo de caixa."
+      "texto": "RELATÓRIO DOS AUDITORES INDEPENDENTES SOBRE AS DEMONSTRAÇÕES FINANCEIRAS. Aos Administradores e Acionistas de Indústrias Metalúrgicas Reunidas S.A. Examinamos as demonstrações financeiras consolidadas que compreendem o Balanço Patrimonial em 31 de dezembro de 2023, as respectivas Demonstrações do Resultado, do Resultado Abrangente, das Mutações do Patrimônio Líquido e dos Fluxos de Caixa. KPMG Auditores Independentes."
+    },
+    {
+      "pagina": 126,
+      "texto": "RELATÓRIO KPMG - Fls. 2. OPINIÃO DOS AUDITORES: Em nossa opinião, as demonstrações financeiras acima referidas apresentam adequadamente, em todos os aspectos relevantes, a posição patrimonial e financeira da Companhia em 31 de dezembro de 2023, o desempenho de suas operações e os seus fluxos de caixa para o exercício findo nessa data, de acordo com as práticas contábeis adotadas no Brasil."
+    },
+    {
+      "pagina": 127,
+      "texto": "RELATÓRIO KPMG - Fls. 3. BASE PARA OPINIÃO: Nossa auditoria foi conduzida de acordo com as normas brasileiras e internacionais de auditoria. Nossas responsabilidades, em conformidade com tais normas, estão descritas na seção Responsabilidades do Auditor. Somos independentes em relação à Companhia, de acordo com os princípios éticos relevantes. INCERTEZA DE CONTINUIDADE OPERACIONAL: Chamamos atenção para o pedido de recuperação judicial em 15/03/2024."
+    },
+    {
+      "pagina": 128,
+      "texto": "RELATÓRIO KPMG - Fls. 4. PRINCIPAIS ASSUNTOS DE AUDITORIA: 1. Recuperabilidade de ativos imobilizados: valor contábil R$ 89,4M; testamos o valor recuperável pelo método DCF com premissas de taxa de desconto WACC 12,8%; 2. Provisão para perdas em créditos a receber: R$ 8,2M; avaliamos a adequação da PDD com base no histórico de inadimplência de 36 meses; 3. Passivo contingente tributário: R$ 24,5M; avaliamos as probabilidades de perda."
+    },
+    {
+      "pagina": 129,
+      "texto": "BALANÇO PATRIMONIAL EM 31/12/2023 (em R$ milhares). ATIVO CIRCULANTE: Caixa e equivalentes 8.420 | Contas a receber 32.180 | Estoques 28.750 | Outros 4.890 | Total Circulante: 74.240. ATIVO NÃO CIRCULANTE: Imobilizado líquido 89.400 | Intangível 2.800 | Outros 3.100 | Total Não Circulante: 95.300. TOTAL DO ATIVO: 169.540."
+    },
+    {
+      "pagina": 130,
+      "texto": "BALANÇO PATRIMONIAL EM 31/12/2023 - PASSIVO (em R$ milhares). PASSIVO CIRCULANTE: Fornecedores 18.420 | Empréstimos e financiamentos 24.800 | Salários e encargos 6.340 | Tributos a pagar 8.900 | Outros 3.200 | Total Circulante: 61.660. PASSIVO NÃO CIRCULANTE: Empréstimos LP 81.600 | Contingências 24.500 | Outros 1.800 | Total Não Circulante: 107.900."
+    },
+    {
+      "pagina": 131,
+      "texto": "BALANÇO PATRIMONIAL EM 31/12/2023 - PATRIMÔNIO LÍQUIDO (em R$ milhares). Capital Social: 50.000 | Reservas de Capital: 8.200 | Prejuízos Acumulados: (58.220) | Total do Patrimônio Líquido: (20). TOTAL DO PASSIVO + PL: 169.540. Nota: O patrimônio líquido negativo evidencia a situação de insolvência que motivou o pedido de recuperação judicial em março de 2024."
+    },
+    {
+      "pagina": 132,
+      "texto": "DEMONSTRAÇÃO DO RESULTADO DO EXERCÍCIO FINDO EM 31/12/2023 (em R$ milhares). Receita Bruta de Vendas: 168.400 | Deduções: (17.230) | Receita Líquida: 151.170 | CPV: (107.830) | Lucro Bruto: 43.340 | Despesas Operacionais: (38.940) | EBITDA: 28.420 | Depreciação e Amortização: (12.040) | EBIT: 16.380 | Resultado Financeiro Líquido: (42.800) | Perdas créditos extraconcursais: (45.000)."
+    },
+    {
+      "pagina": 133,
+      "texto": "DRE 31/12/2023 (cont.). Resultado antes do IRPJ/CSLL: (71.420). IRPJ e CSLL correntes: 0 (resultado negativo). IRPJ e CSLL diferidos: 0. Resultado Líquido do Exercício: (71.420). Resultado por ação básico e diluído: (R$ 1,43). Total de ações: 50.000.000. Crédito extraconcursal honorários perícia R$ 45.000 lançado como Crédito Extraconcursal art. 84 Lei 11.101/05 (ver nota 18)."
+    },
+    {
+      "pagina": 134,
+      "texto": "DEMONSTRAÇÃO DOS FLUXOS DE CAIXA EXERCÍCIO 2023 (em R$ milhares). ATIVIDADES OPERACIONAIS: Resultado líquido: (71.420) | Ajustes: Depreciação 12.040 | PDD 8.200 | Contingências 4.500 | Variação capital de giro: (3.280) | Caixa líquido atividades operacionais: (49.960). ATIVIDADES DE INVESTIMENTO: Capex: (8.400) | Venda de ativos: 2.100 | Líquido investimentos: (6.300)."
+    },
+    {
+      "pagina": 135,
+      "texto": "FLUXO DE CAIXA 2023 (cont.). ATIVIDADES DE FINANCIAMENTO: Captações: 42.000 | Pagamentos de empréstimos: (28.400) | Juros pagos: (18.200) | Líquido financiamento: (4.600). VARIAÇÃO LÍQUIDA DE CAIXA: (60.860). Caixa inicial: 69.280. Caixa final: 8.420. Crédito DIP Financing comprometido pelos sócios: R$ 20.000 não contabilizado (posterior ao fechamento do balanço)."
+    },
+    {
+      "pagina": 136,
+      "texto": "NOTAS EXPLICATIVAS - NOTA 1 - CONTEXTO OPERACIONAL. A Companhia atua no setor siderúrgico desde 1978, com foco em laminados planos para construção civil e autopeças. Capacidade instalada de 450.000 t/ano. Em março de 2024, a administração requereu recuperação judicial, deferida pelo TJSP. A continuidade operacional depende da aprovação e execução do Plano de Recuperação Judicial pelos credores."
+    },
+    {
+      "pagina": 137,
+      "texto": "NOTAS EXPLICATIVAS - NOTA 10 - EMPRÉSTIMOS E FINANCIAMENTOS. Banco Safra: R$ 48.700 | Venc. 2023-2026 | IPCA+8,5% | Garantia: hipoteca galpão. Itaú Unibanco: R$ 35.200 | Venc. 2024-2027 | CDI+3,2% | Garantia: equipamentos. Bradesco: R$ 22.500 | Venc. 2024-2026 | CDI+2,8% | Garantia: recebíveis. Total: R$ 106.400. Todos em moratória legal pelo art. 6º da Lei 11.101/2005."
+    },
+    {
+      "pagina": 138,
+      "texto": "NOTAS EXPLICATIVAS - NOTA 15 - PASSIVOS CONTINGENTES. Processos trabalhistas: R$ 12.400 (provável perda 60%). Processos tributários: R$ 24.500 (possível perda 40%). Processos cíveis: R$ 8.200 (remota perda 20%). Total contingências possíveis e prováveis: R$ 45.100. Advogados internos e externos acompanham os processos. Atualização mensal pela administração."
+    },
+    {
+      "pagina": 139,
+      "texto": "NOTAS EXPLICATIVAS - NOTA 18 - CRÉDITOS EXTRACONCURSAIS. Nos termos do art. 84 da Lei 11.101/2005, são considerados créditos extraconcursais os honorários de perícia contábil (R$ 45.000) relacionados ao processo de recuperação judicial, classificados prioritariamente ao pagamento dos credores concursais. Valor diverge do lançamento original na RD-2024/091 que registrou como despesa corrente."
+    },
+    {
+      "pagina": 140,
+      "texto": "NOTAS EXPLICATIVAS - NOTA 20 - EVENTO SUBSEQUENTE E CONTINUIDADE. Em 15/03/2024, posterior ao encerramento do exercício, foi deferido o processamento da Recuperação Judicial pela 2ª Vara de Falências do TJSP. A administração avalia que, caso o Plano de Recuperação Judicial seja aprovado pela Assembleia de Credores, haverá condições de continuidade operacional. Relatório dos auditores contém parágrafo de ênfase."
+    },
+    {
+      "pagina": 141,
+      "texto": "DEMONSTRAÇÕES FINANCEIRAS - ASSINATURAS E DECLARAÇÕES. Ricardo Mendes - Diretor Presidente e Executivo. Fernanda Alves - Diretora de Relações com Investidores. KPMG Auditores Independentes - CRC 2SP014428/O-6. Responsável técnico: Eduardo Pinheiro - CRC 1SP189274/O-5. Data de emissão do relatório: 18 de maio de 2024. Demonstrações financeiras aprovadas em Assembleia Geral Ordinária realizada em 18/05/2024."
     }
   ]
 }

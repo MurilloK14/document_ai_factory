@@ -3,6 +3,7 @@ import json
 import re
 import shutil
 import hashlib
+import unicodedata
 from typing import Any
 from fastapi import FastAPI, File, UploadFile, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
@@ -57,6 +58,41 @@ def anonimizar_lgpd(texto: str) -> str:
     texto = re.sub(r"\b\d{2}\.\d{3}\.\d{3}/\d{4}-\d{2}\b", "[CNPJ_OCULTO]", texto)
     texto = re.sub(r"\b\d{3}\.\d{3}\.\d{3}-\d{2}\b", "[CPF_OCULTO]", texto)
     return texto
+
+
+def normalizar_busca(texto: str) -> str:
+    """Remove acentos e converte para minúsculas para busca sem acento encontrar palavras acentuadas."""
+    return unicodedata.normalize('NFKD', texto).encode('ASCII', 'ignore').decode('ASCII').lower()
+
+
+def extrair_texto_completo_pagina(page) -> str:
+    """
+    Extrai o texto completo de uma página PDF incluindo tabelas e cabeçalhos.
+    Usa a estratégia 'blocks' do PyMuPDF que preserva melhor a estrutura de tabelas.
+    """
+    # Estratégia primária: blocos de texto (preserva células de tabela individualmente)
+    try:
+        blocks = page.get_text("blocks")
+        partes = []
+        for b in blocks:
+            # b[6] == 0 → bloco de texto (não imagem); b[4] é o conteúdo
+            if b[6] == 0 and b[4].strip():
+                partes.append(b[4].strip())
+        texto_blocos = " | ".join(partes)
+    except Exception:
+        texto_blocos = ""
+
+    # Estratégia secundária: texto puro em ordem de leitura
+    try:
+        texto_simples = page.get_text("text").strip()
+    except Exception:
+        texto_simples = ""
+
+    # Combina as duas estratégias para máxima cobertura
+    if texto_blocos and texto_simples:
+        # Usa blocos como base (melhor para tabelas) + texto simples para garantir
+        return texto_blocos + "\n" + texto_simples
+    return texto_blocos or texto_simples
 
 
 def eh_erro_temporario(exc: BaseException) -> bool:
@@ -218,14 +254,17 @@ async def processar_lote(file: UploadFile = File(...), forcar_reprocessamento: b
         total_paginas = len(doc)
 
         # ESTÁGIO 1: Machine Learning Local (Scikit-Learn + TF-IDF)
+        # Usa extração aprimorada que captura tabelas e cabeçalhos
         textos_todas_paginas: list[str] = [
-            str(doc[p].get_text("text")) for p in range(total_paginas)
+            extrair_texto_completo_pagina(doc[p]) for p in range(total_paginas)
         ]
         resultado_ml = detector_ml.analisar_paginas(textos_todas_paginas)
         candidatos_ml = resultado_ml["paginas_candidatas"]
         tempo_ml = resultado_ml["tempo_execucao_ms"]
 
         # Extração de Cabeçalhos e Fallback Multimodal para Imagens Escaneadas
+        # Limiar reduzido de 60 → 20 chars para capturar páginas esparsas (tabelas, cabeçalhos)
+        LIMIAR_TEXTO = 20
         partes_conteudo: list[Any] = []
         bloco_texto_paginas = []
 
@@ -234,7 +273,7 @@ async def processar_lote(file: UploadFile = File(...), forcar_reprocessamento: b
             page = doc[page_num]
             texto = textos_todas_paginas[page_num].strip()
 
-            if len(texto) >= 60:
+            if len(texto) >= LIMIAR_TEXTO:
                 cabecalho = texto[:1200].replace("\n", " ").strip()
                 bloco_texto_paginas.append(f"[PÁGINA {num_exibicao}]: {cabecalho}\n")
             else:
@@ -376,28 +415,80 @@ def buscar_no_ocr(q: str = Query(..., min_length=2, description="Termo para pesq
     with open(ARQUIVO_BANCO_ESTADO, "r", encoding="utf-8") as f:
         estado = json.load(f)
 
-    termo = q.lower()
+    termo_norm = normalizar_busca(q)
     resultados = []
+    paginas_ja_adicionadas = set()
 
+    # --- Busca 1: índice OCR completo de todas as páginas ---
     for pag in estado.get("_indice_ocr_paginas", []):
-        texto_pag = pag["texto"]
-        if termo in texto_pag.lower():
+        texto_pag = pag.get("texto", "")
+        texto_norm = normalizar_busca(texto_pag)
+
+        if termo_norm in texto_norm:
             num_p = pag["pagina"]
+            if num_p in paginas_ja_adicionadas:
+                continue
+            paginas_ja_adicionadas.add(num_p)
+
             doc_associado = next(
                 (d for d in estado["segmentacao"] if d["pagina_inicio"] <= num_p <= d["pagina_fim"]),
                 None
             )
-            pos = texto_pag.lower().find(termo)
+
+            # Extrai trecho no texto original (preserva acentos na exibição)
+            pos = texto_norm.find(termo_norm)
             ini_trecho = max(0, pos - 60)
-            fim_trecho = min(len(texto_pag), pos + 120)
+            fim_trecho = min(len(texto_pag), pos + 140)
+            trecho = texto_pag[ini_trecho:fim_trecho].replace(chr(10), " ").strip()
+
             resultados.append({
                 "pagina_lote": num_p,
                 "doc_id": doc_associado["doc_id"] if doc_associado else None,
                 "tipo_documento": doc_associado["tipo_documento"] if doc_associado else "Desconhecido",
-                "trecho_encontrado": f"...{texto_pag[ini_trecho:fim_trecho].replace(chr(10), ' ')}..."
+                "categoria_macro": doc_associado["categoria_macro"] if doc_associado else None,
+                "trecho_encontrado": f"...{trecho}...",
+                "fonte": "ocr_pagina"
             })
 
-    return {"termo_pesquisado": q, "total_ocorrencias": len(resultados), "ocorrencias": resultados}
+    # --- Busca 2: metadados da segmentação (tipo, subtipo, envolvidos, juiz, resumo) ---
+    for doc in estado.get("segmentacao", []):
+        campos_meta = [
+            doc.get("tipo_documento", ""),
+            doc.get("subtipo_detalhe", ""),
+            doc.get("categoria_macro", ""),
+            doc.get("ocr_resumo_lgpd", ""),
+            doc.get("juiz", "") or "",
+            " ".join(doc.get("envolvidos", [])),
+        ]
+        texto_meta_norm = normalizar_busca(" ".join(campos_meta))
+
+        if termo_norm in texto_meta_norm:
+            # Verifica se a página de início deste doc já foi adicionada via OCR
+            pagina_ref = doc["pagina_inicio"]
+            if pagina_ref not in paginas_ja_adicionadas:
+                paginas_ja_adicionadas.add(pagina_ref)
+                # Encontra o campo que deu match para exibir o trecho correto
+                trecho_meta = next(
+                    (c for c in campos_meta if termo_norm in normalizar_busca(c)),
+                    campos_meta[0]
+                )
+                resultados.append({
+                    "pagina_lote": pagina_ref,
+                    "doc_id": doc["doc_id"],
+                    "tipo_documento": doc["tipo_documento"],
+                    "categoria_macro": doc["categoria_macro"],
+                    "trecho_encontrado": f"...{trecho_meta[:200]}...",
+                    "fonte": "metadados_segmentacao"
+                })
+
+    # Ordena por página
+    resultados.sort(key=lambda r: r["pagina_lote"])
+
+    return {
+        "termo_pesquisado": q,
+        "total_ocorrencias": len(resultados),
+        "ocorrencias": resultados
+    }
 
 
 # ---------------------------------------------------------

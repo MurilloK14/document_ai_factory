@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+﻿import React, { useState, useEffect, useRef } from 'react';
 import {
   Scale,
   Search,
@@ -1508,9 +1508,9 @@ Certificado Digital emitido por LexOrganize Sentinel sob padrão ICP-Brasil.
                   <div className="flex items-center justify-between">
                     <h4 className="text-xs font-bold text-blue-300 uppercase tracking-wider flex items-center gap-2">
                       <Sparkles className="w-4 h-4 text-[#dfba73]" />
-                      <span>{ocrSearchResults.total_ocorrencias} Ocorrência(s) de "{ocrSearchResults.termo_pesquisado}" no OCR do Lote</span>
+                      <span>{ocrSearchResults.total_ocorrencias} Ocorrência(s) de &quot;{ocrSearchResults.termo_pesquisado}&quot; no OCR do Lote</span>
                     </h4>
-                    <span className="text-[10px] text-blue-400 font-mono">Índice In-Memory</span>
+                    <span className="text-[10px] text-blue-400 font-mono">Índice Full-Text · 141 Páginas</span>
                   </div>
 
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
@@ -1522,16 +1522,36 @@ Certificado Digital emitido por LexOrganize Sentinel sob padrão ICP-Brasil.
                         }}
                         className="p-3 rounded-xl bg-white/[0.03] border border-blue-500/20 hover:border-blue-500/40 cursor-pointer transition-all space-y-1"
                       >
-                        <div className="flex items-center justify-between text-[10px]">
+                        <div className="flex items-center justify-between text-[10px] gap-2">
                           <span className="font-bold text-[#dfba73]">Página {item.pagina_lote}</span>
-                          <span className="text-slate-400">Doc #{item.doc_id}: {item.tipo_documento}</span>
+                          <div className="flex items-center gap-1.5 flex-wrap justify-end">
+                            {item.fonte === 'metadados_segmentacao' && (
+                              <span className="px-1.5 py-0.5 rounded bg-purple-500/20 text-purple-300 font-mono text-[9px]">METADATA</span>
+                            )}
+                            {item.fonte === 'ocr_pagina' && (
+                              <span className="px-1.5 py-0.5 rounded bg-blue-500/20 text-blue-300 font-mono text-[9px]">OCR</span>
+                            )}
+                            <span className="text-slate-400 truncate max-w-[140px]">Doc #{item.doc_id}: {item.tipo_documento}</span>
+                          </div>
                         </div>
+                        {item.categoria_macro && (
+                          <span className="text-[9px] text-[#dfba73]/60 uppercase tracking-widest">{item.categoria_macro}</span>
+                        )}
                         <p className="text-[11px] text-slate-300 leading-relaxed font-mono">
                           {item.trecho_encontrado}
                         </p>
                       </div>
                     ))}
                   </div>
+                </div>
+              )}
+
+              {/* No results state */}
+              {ocrSearchResults && ocrSearchResults.total_ocorrencias === 0 && (
+                <div className="p-5 rounded-2xl bg-[#0e1626] border border-white/[0.07] text-center space-y-2">
+                  <Search className="w-7 h-7 text-slate-600 mx-auto" />
+                  <p className="text-sm text-slate-400">Nenhuma ocorrência encontrada para <strong className="text-white">&quot;{ocrSearchResults.termo_pesquisado}&quot;</strong></p>
+                  <p className="text-[11px] text-slate-600">Tente com acentos diferentes, abreviações ou variações do termo.</p>
                 </div>
               )}
 
