@@ -1,1 +1,1 @@
-# documentaifacture
+# document-ai-factory
