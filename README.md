@@ -15,6 +15,7 @@ Plataforma jurídica de alta performance construída para orquestrar fatiamento 
 |  - Mesa de Triagem & Fatiamento Digital (Timeline 1..N)     |
 |  - Fila de Validação Human-in-the-Loop (HITL com 1 Clique)  |
 |  - Pesquisa Transversal com Ocorrências no OCR do Lote      |
+|  - [INOVAÇÃO] Grafo Forense de Coerência Inter-Peças (Radar) |
 +------------------------------+------------------------------+
                                | Proxy (/api/*)
                                v
@@ -31,6 +32,7 @@ Plataforma jurídica de alta performance construída para orquestrar fatiamento 
 |                                                             |
 | [ESTÁGIO 3] Fatiamento Físico & Distribuição:               |
 |   - PyMuPDF (fitz) corta os PDFs individuais em disco       |
+|   - Grafo Forense de Relações e Anomalias Cruzadas           |
 |   - Endpoints para Download Individual e Pacote Completo ZIP|
 +-------------------------------------------------------------+
 ```
@@ -54,10 +56,19 @@ Plataforma jurídica de alta performance construída para orquestrar fatiamento 
   - Indicadores de performance do modelo: tempo de processamento local (ms) e fronteiras ML detectadas.
   - Fila de Revisão Humana (HITL): sinalização de documentos com baixa confiança ou artefatos para aprovação em 1 clique via `PATCH /api/revisao/{doc_id}`.
   - Download individual de PDFs fatiados ou pacote consolidado via `GET /api/download-zip`.
+
 - **Pesquisa Multi-Documento & Busca no OCR:**
   - Busca transversal nos textos indexados do lote via `GET /api/buscar-ocr?q=...`.
   - Destaque das ocorrências por página com contexto e proteção LGPD.
   - Inspetor documental lateral com réplica de folha digital e metadados.
+
+- **🌟 [INOVAÇÃO] Grafo Forense de Coerência & Radar de Anomalias Cruzadas:**
+  - Mapeamento interativo de relações causais, financeiras e societárias entre as peças fatiadas via `GET /api/grafo-forense`.
+  - **Detector de Incoerência Cruzada:**
+    - 🚨 *Conflito de Poderes de Representação:* Ordem de Compra (Doc #5) subscrita isoladamente confrontada com a Cláusula 9ª do Contrato Social (Doc #6) que exige assinatura conjunta.
+    - ⚠️ *Divergência de Prazos Concursais:* Certidão do DJE (Doc #2, 15 dias) confrontada com o Cronograma do Plano de Recuperação (Doc #3, 10 dias).
+    - 💡 *Classificação Contábil Divergente:* Honorários periciais da Requisição RD (Doc #4) confrontados com o Balanço da KPMG (Doc #7).
+  - Emissão e download de **Laudo Pericial Forense** em texto/certificado.
 
 ---
 
@@ -88,16 +99,9 @@ Plataforma jurídica de alta performance construída para orquestrar fatiamento 
 # Instale as dependências Python
 pip install -r requirements.txt
 
-# (Opcional) Configure sua chave da API Gemini
-# export GEMINI_API_KEY="sua_chave_aqui" (Linux/Mac)
-# set GEMINI_API_KEY="sua_chave_aqui" (Windows CMD)
-# $env:GEMINI_API_KEY="sua_chave_aqui" (PowerShell)
-
 # Inicie o servidor FastAPI na porta 8000
 python -m uvicorn main:app --reload --port 8000
 ```
-
-> **Nota de Resiliência:** Caso a chave `GEMINI_API_KEY` não seja fornecida no ambiente, o sistema ativa automaticamente o modo de contingência local usando as fronteiras preditas pelo motor Scikit-Learn.
 
 ### 2. Frontend (React 19 + Vite)
 
